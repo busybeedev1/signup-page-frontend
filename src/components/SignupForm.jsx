@@ -46,7 +46,7 @@ const SignupForm = () => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://your-backend.onrender.com/api/v1/signup", {
+      const response = await fetch("https://signup-page-backend-8fop.onrender.com/api/v1/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
